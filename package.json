@@ -1,0 +1,19 @@
+{
+  "name": "srvd",
+  "version": "1.0.0",
+  "description": "iSRVD website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OperationCode/srvd.git"
+  },
+  "author": "John Hampton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OperationCode/srvd/issues"
+  },
+  "homepage": "https://github.com/OperationCode/srvd#readme"
+}
