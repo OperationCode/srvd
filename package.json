@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OperationCode/srvd/issues"
   },
-  "homepage": "https://github.com/OperationCode/srvd#readme"
+  "homepage": "https://github.com/OperationCode/srvd#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
