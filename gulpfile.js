@@ -5,15 +5,17 @@
     var browserSync = require('browser-sync');
     var reload = browserSync.reload;
 
-    gulp.task('compile:styles', compileStyles);
-    gulp.task('compile:scripts', compileScripts);
-    gulp.task('build', ['compile:scripts', 'compile:styles'], function(){});
+    gulp.task('styles', styles);
+    gulp.task('scripts', scripts);
+    gulp.task('fonts', fonts);
+    gulp.task('images', images);
+    gulp.task('build', ['scripts', 'styles', 'fonts', 'images'], function(){});
     gulp.task('serve', ['build'], serve);
     gulp.task('default', ['serve'], function (){});
 
   // Styles ------------------------------------------------------------
 
-  function compileStyles() {
+  function styles() {
     var sass = require('gulp-sass');
     var autoprefixer = require('gulp-autoprefixer');
 
@@ -31,11 +33,27 @@
 
   // Scripts -----------------------------------------------------------
 
-	function compileScripts() {
+	function scripts() {
     return gulp.src('app/scripts/**/*.js')
       .pipe(concat('app.js'))
       .pipe(gulp.dest('dist/scripts/'))
       .pipe(reload({stream: true}));
+  }
+
+  // Fonts -----------------------------------------------------------
+
+  function fonts() {
+    return gulp.src('app/assets/fonts/**/*')
+    .pipe(gulp.dest('dist/assets/fonts'))
+    .pipe(reload({stream: true}));
+  }
+
+  // Images -----------------------------------------------------------
+
+  function images() {
+    return gulp.src('app/assets/images/**/*')
+    .pipe(gulp.dest('dist/assets/images'))
+    .pipe(reload({stream: true}));
   }
 
   // Serve ------------------------------------------------------------
@@ -55,8 +73,10 @@
       'app/scripts/**/*.js'
     ]).on('change', reload);
 
-    gulp.watch('app/stylesheets/**/*.scss', ['compile:styles']);
-    gulp.watch('app/scripts/**/*.js', ['compile:scripts']);
+    gulp.watch('app/stylesheets/**/*.scss', ['styles']);
+    gulp.watch('app/scripts/**/*.js', ['scripts']);
+    gulp.watch('app/assets/fonts/**/*', ['fonts']);
+    gulp.watch('app/assets/images/**/*', ['images']);
   }
 
 })(require);
