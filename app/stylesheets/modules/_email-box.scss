@@ -1,13 +1,17 @@
 .email-box {
-    background:white;
+    background: white;
     border: .5px solid black;
-    width: 50%;
-    display: block;
+    width: 40%;
+    height: 300px;
     border-radius: 5px;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 400px;
+
 }
 
 body {
-    background: url("../../app/images/landing_page.jpg");
+    background: url("../../app/images/landing_page.jpg") top no-repeat;
     width: 100%;
     height:100%;
 
