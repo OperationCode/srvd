@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: srvd_production
-  username: srvd
-  password: <%= ENV['SRVD_DATABASE_PASSWORD'] %>
