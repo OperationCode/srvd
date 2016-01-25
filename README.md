@@ -6,12 +6,22 @@ The future home of SRVD (http://iserved.co).
 * HTML5
 * CSS3
 * SASS
-* Javascript
 * Ruby on Rails
 
 ## Install / Development
 
-#### Need development instructions for Rails App here
+* Install Ruby locally
+* Install Rails locally
+* Install PostgreSQL locally
+* `git clone` this repository
+* `bundle install` to install dependencies
+* `rake db:create` to create database
+* `rake db:migrate` to migrate db schema
+* `rails server` to start WEBrick server
+* View your app in your local browser at http://localhost:3000.
+
+
+
 
 ## Deployment:
 Instructions for deploying Git master branch to production server go here
