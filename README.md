@@ -6,21 +6,22 @@ The future home of SRVD (http://iserved.co).
 * HTML5
 * CSS3
 * SASS
-* Javascript
-* Gulp
+* Ruby on Rails
 
 ## Install / Development
 
-#### Front-end:
-
-* Install Nodejs  on your machine- available at [nodejs.org](http://nodejs.org)
-* Install gulp globally on your machine: `npm install gulp -g`
+* Install Ruby locally
+* Install Rails locally
+* Install PostgreSQL locally
 * `git clone` this repository
-* `npm install`
-* `gulp serve`
-* View your app in your local browser at http://localhost:9000.
+* `bundle install` to install dependencies
+* `rake db:create` to create database
+* `rake db:migrate` to migrate db schema
+* `rails server` to start WEBrick server
+* View your app in your local browser at http://localhost:3000.
 
-* Optional: For managing CSS/SASS modules, install [css-burrito](https://github.com/jasonreece/css-burrito) globally on your machine: `npm install -g css-burrito`
+
+
 
 ## Deployment:
 Instructions for deploying Git master branch to production server go here
