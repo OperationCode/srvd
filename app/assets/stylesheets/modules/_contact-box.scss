@@ -1,0 +1,58 @@
+.contact-box {
+  background: $base-bg-color;
+  border: 0.5px solid $border-color;
+  border-radius: 5px;
+  color: $font-gray;
+  display: block;
+  padding: 50px 40px;
+  margin: 400px auto 0;
+  text-transform: uppercase;
+  text-align: center;
+  width: 33%;
+  h2 {
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 0.4rem;
+  }
+}
+
+.contact-box__form {
+  border-bottom: .5px solid $border-color;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+}
+
+.contact-box__input {
+  background: $base-bg-color;
+  border: .5px solid $border-color;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 1em;
+  padding-left: 1em;
+  width: 100%;
+}
+
+.contact-box__input::placeholder {
+  color: $font-gray;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.contact-box__button {
+  background: $btn-bg-color;
+  border: .5px solid $border-color;
+  border-radius: 5px;
+  height: 50px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 40%;
+  &:hover {
+    background: $btn-bg-color-hover;
+    color: $btn-color-hover;
+  }
+}
+
+.contact-box__social-media {
+  margin-top: 2em;
+}

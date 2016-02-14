@@ -1,0 +1,18 @@
+.social-icon {
+  border: .5px solid $border-color;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 2em;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  text-decoration: none;
+  &:hover {
+    color: $font-gray;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $font-gray;
+    text-decoration: none;
+  }
+}
