@@ -2,6 +2,10 @@
 // - - base
 // project defaults for base elements - h1-h6, p, a, etc.
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     background: image-url("landing_page_background.jpg") top no-repeat;
     body { font-size: 62.5%; }; // makes 10px = 1em
