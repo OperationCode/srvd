@@ -17,9 +17,12 @@
   width: 75%;
   h2 {
     color: $font-gray-darker;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
-    letter-spacing: 10px;
+    @media (min-width : 480px) {
+      font-size: 24px;
+      letter-spacing: 10px;
+    }
     @media (min-width : 768px) {
       font-size: 32px;
     }
@@ -37,7 +40,9 @@
   border-bottom: .5px solid $border-color;
   font-size: 12px;
   font-weight: 200;
-  letter-spacing: 5px;
+  @media (min-width : 480px) {
+    letter-spacing: 5px;
+  }
   @media (min-width : 768px) {
     font-size: 16px;
   }
@@ -55,15 +60,16 @@
 
 .contact-box__input::placeholder {
   color: $font-gray;
-  letter-spacing: 5px;
   text-transform: uppercase;
+  @media (min-width : 480px) {
+    letter-spacing: 5px;
+  }
 }
 .contact-box__button {
   background: $btn-bg-color;
   border: .5px solid $border-color;
   border-radius: 5px;
   line-height: 50px;
-  letter-spacing: 5px;
   padding: 0; //reset user-agent stylesheet padding
   margin-top: 20px;
   margin-bottom: 20px;
@@ -74,6 +80,7 @@
     color: $btn-color-hover;
   }
   @media (min-width : 480px) {
+    letter-spacing: 5px;
     width: 40%;
   }
 }

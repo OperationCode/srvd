@@ -1,0 +1,13 @@
+.landing-page__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.landing-page__logo {
+  color: $landing-page-brand-color;
+  font-family: $brand-font;
+  position: absolute;
+  right: 0px;
+}
