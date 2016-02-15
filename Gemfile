@@ -24,8 +24,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'solidus'
 gem 'solidus_auth_devise'
-gem "figaro" #keep production env keys private
-gem "autoprefixer-rails" #add vendor prefixes to CSS
+gem "figaro" # keep production env keys private
+gem "autoprefixer-rails" # add vendor prefixes to CSS
+gem 'font-awesome-sass', '~> 4.5.0' # sass-version of font-awesome icons for rails
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

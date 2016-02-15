@@ -102,6 +102,8 @@ GEM
       thor (~> 0.14)
     font-awesome-rails (4.5.0.0)
       railties (>= 3.2, < 5.0)
+    font-awesome-sass (4.5.0)
+      sass (>= 3.2)
     friendly_id (5.0.5)
       activerecord (>= 4.0.0)
     globalid (0.3.6)
@@ -329,6 +331,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   figaro
+  font-awesome-sass (~> 4.5.0)
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.15)
