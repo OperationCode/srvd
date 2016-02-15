@@ -1,13 +1,53 @@
 .landing-page__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
+  justify-content: center;
+}
+
+.landing-page__header {
+  display: none;
+  @media (min-width : 480px) {
+    display: block;
+    color: $landing-page-brand-color;
+    font-family: $brand-font;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-weight: normal;
+    @media (min-width : 480px) {
+      font-size: 24px;
+    }
+    @media (min-width : 768px) {
+      letter-spacing: 3px;
+      font-size: 28px;
+    }
+  }
+}
+
+.landing-page__header--mobile {
+  color: $landing-page-brand-color;
+  display: block;
+  font-family: $brand-font;
+  margin-bottom: 10px;
+  text-align: center;
+  @media (min-width : 480px) {
+    display: none;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+  }
 }
 
 .landing-page__logo {
-  color: $landing-page-brand-color;
-  font-family: $brand-font;
-  position: absolute;
-  right: 0px;
+  height: 180px;
+}
+
+.landing-page__logo--mobile {
+  height: 90px;
+  margin-top: 10px;
 }

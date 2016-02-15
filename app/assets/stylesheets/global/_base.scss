@@ -12,5 +12,6 @@ body {
 }
 
 body {
-  background: linear-gradient(to right, rgba(160,100,96,0.8), rgba(61,92,100,0.8)), image-url("landing_page_background.jpg") top no-repeat;
+  background: linear-gradient(to right, rgba(160,100,96,0.8), rgba(61,92,100,0.8)), image-url("landing_page_background.jpg") right no-repeat;
+  background-size: cover;
 }
