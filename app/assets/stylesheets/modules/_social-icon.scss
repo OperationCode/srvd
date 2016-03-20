@@ -1,0 +1,21 @@
+.social-icon__container {
+  border: .5px solid $border-color;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 2em;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  text-decoration: none;
+  &:hover {
+    border: .5px solid $btn-color-hover;
+    .social-icon {
+      -webkit-text-stroke-color: $btn-color-hover;
+    }
+  }
+}
+.social-icon {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $border-color;
+  color: #fff;
+}
