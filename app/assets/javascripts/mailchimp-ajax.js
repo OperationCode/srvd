@@ -20,8 +20,6 @@
       signupUser($form, $notification).then(function(data) {
         if (data.result === "success") {
           $notification.css("color", "inherit");
-          $('.contact-box__button').css('display', "none");
-          $inputEl.css('display', "none");
           message = "Thanks for signing up! Please check your email to confirm.";
         }
         else if (data.result === "error"){
@@ -34,6 +32,8 @@
             $notification.css("color", "red");
           }
         }
+        $('.contact-box__button').css('display', "none");
+        $inputEl.css('display', "none");
         $notification.html(message);
         $notification.show();
       });
