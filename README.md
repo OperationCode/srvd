@@ -1,32 +1,37 @@
-# srvd
-The future home of SRVD (http://iserved.co).
+[![GitHub release](https://img.shields.io/github/release/fbrctr/fabricator.svg)]()
+[![Build Status](https://travis-ci.org/fbrctr/fabricator.svg)](https://travis-ci.org/fbrctr/fabricator) [![devDependency Status](https://david-dm.org/fbrctr/fabricator/dev-status.svg)](https://david-dm.org/fbrctr/fabricator#info=devDependencies) [![Join the chat at https://gitter.im/fbrctr/fabricator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fbrctr/fabricator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Built With:
+<p align="center">
+  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
+</p>
 
-* HTML5
-* CSS3
-* SASS
-* Javascript
-* Gulp
+# Fabricator
 
-## Install / Development
+> _fabricate_ - to make by assembling parts or sections.
 
-#### Front-end:
+Fabricator is a tool for building website UI toolkits - _think ["Tiny Bootstraps, for Every Client"](http://daverupert.com/2013/04/responsive-deliverables/#tiny-bootstraps-for-every-client)_
 
-* Install Nodejs  on your machine- available at [nodejs.org](http://nodejs.org)
-* Install gulp globally on your machine: `npm install gulp -g`
-* `git clone` this repository
-* `npm install`
-* `gulp serve`
-* View your app in your local browser at http://localhost:9000.
+## Quick Start
 
-* Optional: For managing CSS/SASS modules, install [css-burrito](https://github.com/jasonreece/css-burrito) globally on your machine: `npm install -g css-burrito`
+```shell
+$ curl -L https://github.com/fbrctr/fabricator/archive/master.tar.gz | tar zx --strip 1
+$ npm start
+```
 
-## Deployment:
-Instructions for deploying Git master branch to production server go here
+## Documentation
 
-## Git Feature Branch Naming
-Follow format of: `<initials>/<issue#>/<branch-title>` … example: `git checkout -b JJH/6/front-end-scaffolding`
+#### [Read the docs →](http://fbrctr.github.io/docs)
 
-## URLs for external store, blog, any APIs
-Add URLs here that other developers need to be aware of
+## Demo
+
+#### [Default Fabricator Instance →](http://fbrctr.github.io/demo)
+
+## Credits
+
+Created by [Luke Askew](http://twitter.com/lukeaskew).
+
+Logo by [Abby Putinski](https://abbyputinski.com/)
+
+## License
+
+[The MIT License (MIT)](http://opensource.org/licenses/mit-license.php)
