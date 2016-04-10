@@ -1,11 +1,3 @@
-.DS_Store
-node_modules
-/dist
-
-# Ignore bundler config.
-/.bundle
-
-# Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
-/tmp
+_site
+.sass-cache
+.jekyll-metadata
