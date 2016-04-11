@@ -1,6 +1,9 @@
+---
+---
+
 @charset 'utf-8';
 
-// - - css-burrito v1.6 | mit license | github.com/jasonreece/css-burrito
+// - - originally based on SCSS manifest from css-burrito v1.6 | mit license | github.com/jasonreece/css-burrito
 
 // - - - - - - - - - - - - - - - - - - -
 // - - application.scss
@@ -19,9 +22,6 @@
 
 // - - reset - normalize.css v3.0.2
 @import 'libs/normalize';
-@import 'font-awesome';
-@import 'bourbon';
-
 
 // - - - - - - - - - - - - - - - - - - -
 // - - global
@@ -53,8 +53,9 @@
 
 // - - - - - - - - - - - - - - - - - - -
 // - - modules
-// add new modules to the modules/_modules.scss file and they'll get pulled in here.
-@import 'modules/modules';
+@import 'modules/contact-box';
+@import 'modules/landing-page';
+@import 'modules/social-icon';
 
 
 // - - - - - - - - - - - - - - - - - - -
