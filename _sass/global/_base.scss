@@ -1,0 +1,21 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - base
+// project defaults for base elements - h1-h6, p, a, etc.
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(left, rgba(160,100,96,0.8), rgba(61,92,100,0.8)),url(/images/landing_page_background.jpg) right no-repeat;
+    background: linear-gradient(to right, rgba(160,100,96,0.8), rgba(61,92,100,0.8)),url(/images/landing_page_background.jpg) right no-repeat;
+    background-size: cover
+}
+
+// background image source: https://www.dvidshub.net/image/649277/honor-guard-performs-air-force-week
+// Honor Guard performs for Air Force Week [Image 1 of 11], by SrA Grovert Fuentes-Contreras, identified by DVIDS, is free of known copyright restrictions under U.S. copyright law (public domain)
