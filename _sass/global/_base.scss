@@ -12,6 +12,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to right, rgba(160,100,96,0.8), rgba(61,92,100,0.8)), image-url("/../images/landing_page_background.jpg") right no-repeat;
-  background-size: cover;
+    background: -webkit-linear-gradient(left, rgba(160,100,96,0.8), rgba(61,92,100,0.8)),url(/images/landing_page_background.jpg) right no-repeat;
+    background: linear-gradient(to right, rgba(160,100,96,0.8), rgba(61,92,100,0.8)),url(/images/landing_page_background.jpg) right no-repeat;
+    background-size: cover
 }
