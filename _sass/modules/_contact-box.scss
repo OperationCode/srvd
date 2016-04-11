@@ -5,7 +5,7 @@
   color: $font-gray;
   display: block;
   padding: 0 40px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   text-transform: uppercase;
   text-align: center;
   width: 75%;
@@ -22,7 +22,7 @@
     }
   }
   @media (min-width : 480px) {
-    padding: 50px 40px;
+    padding: 30px 30px;
   }
   @media (min-width : 992px) {
     width: 650px;
